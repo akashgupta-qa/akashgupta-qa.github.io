@@ -5,19 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Akash Gupta | Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f9fafb; color:#111827; }
-    header { background:#111827; color:white; padding:2rem; text-align:center; }
-    section { padding:2rem; max-width:900px; margin:auto; }
-    h2 { color:#1f2937; }
-    .card { background:white; padding:1.5rem; margin:1rem 0; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
-    footer { text-align:center; padding:1.5rem; background:#111827; color:white; margin-top:2rem; }
-    a { color:#2563eb; text-decoration:none; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background:#f3f4f6; color:#111827; }
+    header { background:linear-gradient(90deg, #1e3a8a, #1e40af); color:white; padding:3rem 2rem; text-align:center; }
+    header h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+    header p { font-size:1.2rem; opacity:0.9; }
+    section { padding:2rem; max-width:1000px; margin:auto; }
+    h2 { color:#1f2937; border-left:4px solid #1e3a8a; padding-left:10px; }
+    .card { background:white; padding:1.8rem; margin:1.5rem 0; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.08); transition:transform 0.2s ease-in-out; }
+    .card:hover { transform: translateY(-3px); }
+    a { color:#2563eb; text-decoration:none; font-weight:500; }
+    a:hover { text-decoration:underline; }
+    footer { text-align:center; padding:2rem; background:#1e3a8a; color:white; margin-top:3rem; font-size:0.95rem; }
   </style>
 </head>
 <body>
   <header>
+    <img src="https://avatars.githubusercontent.com/u/placeholder" alt="Profile" style="width:120px;height:120px;border-radius:50%;margin-bottom:1rem;" />
     <h1>Akash Gupta</h1>
     <p>QA Engineering Manager | Automation | SDET Leadership</p>
+    <p style="font-style:italic;opacity:0.9;">Driving Quality Engineering through automation, tooling, and scalable test architecture.</p>
+    <a href="#resume" style="display:inline-block;margin-top:1rem;padding:0.6rem 1rem;background:#2563eb;color:white;border-radius:6px;">Download Resume</a>
   </header>
 
   <section>
@@ -46,10 +53,26 @@
       <p>Reduced manual QA by 60% through structured automation rollout.</p>
     </div>
 
+    <h2>Projects</h2>
+    <div class="card" style="display:flex;gap:1rem;flex-wrap:wrap;">
+      <div class="project-tile" style="flex:1 1 40%;padding:1rem;background:#f3f4f6;border-radius:8px;min-width:250px;">
+        <strong>Inventory Automation Suite</strong>
+        <p>Designed hybrid UI + API suite with scale and data-driven validation.</p>
+      </div>
+      <div class="project-tile" style="flex:1 1 40%;padding:1rem;background:#f3f4f6;border-radius:8px;min-width:250px;">
+        <strong>Replenishment Automation</strong>
+        <p>Cut manual regression by 60% and integrated into CI/CD.</p>
+      </div>
+    </div>
+
     <h2>Contact</h2>
-    <div class="card">
-      <p><strong>Name:</strong> Akash Gupta<br><strong>DOB:</strong> 08th November, 1992<br><strong>Email:</strong> aakashgupta1992@gmail.com<br><strong>Phone:</strong> 8376934143</p>
-      <p><strong>Education:</strong><br>B.Tech, Vellore Institute of Technology (2010-2014)<br>St. Michael's School - XII (2009-2010)<br>St. Michael's School - X (2007-2008)</p>
+    <div class="card" style="display:flex;align-items:center;gap:1rem;">
+      <p><strong>Email:</strong> aakashgupta1992@gmail.com<br>
+      <strong>Phone:</strong> 8376934143</p>
+      <p>
+        <a href="https://www.linkedin.com/in/akash-gupta-39812367/" target="_blank">🔗 LinkedIn</a> <br>
+        <a href="https://github.com/akashgupta-qa" target="_blank">💻 GitHub</a>
+      </p>
     </div>
   </section>
 
