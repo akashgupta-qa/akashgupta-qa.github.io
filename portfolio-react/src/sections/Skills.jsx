@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 
 const technical = [
-"Java", "Python (basic)", "TTCN", "Selenium", "Appium", "TestNG",
+"Java", "Python (basic)", "TTCN", "Selenium", "Appium", "TestNG", "Maven",
 "REST Assured", "BrowserStack", "JMeter", "MongoDB", "MySQL", "Git",
 "GitHub Actions", "Jenkins"
 ];

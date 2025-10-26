@@ -7,8 +7,8 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Download, Linkedin } from "lucide-react";
-//import ResumeSection from "sections/ResumeSection";
-//import Contact from "sections/Contact";
+import ResumeSection from "./sections/ResumeSection";
+import Contact from "./sections/Contact";
 
 
 export default function App() {
@@ -37,6 +37,9 @@ return (
 <Experience />
 <Projects />
 <Skills />
+<ResumeSection />
+<Contact />
+
 
 {showTop && (
 <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="fixed bottom-6 right-6 w-12 h-12 rounded-full shadow-lg bg-indigo-600 text-white flex items-center justify-center text-xl z-50">
